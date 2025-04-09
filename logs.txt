@@ -1,0 +1,18 @@
+petaarf@DESKTOP-ODPAHOP MINGW64 ~/SI_2025_lab1_233270 (master)
+$ git log --oneline --graph --all
+*   357231a (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/PetarFiliposki/SI_2025_lab1_233270
+|\
+| *   9c05021 Merge pull request #11 from PetarFiliposki/1-remove-a-task-by-name
+| |\
+| | * 4e6443b (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Remove a task by name
+| * |   6f3193f Merge pull request #10 from PetarFiliposki/7-count-tasks-per-category
+| |\ \
+| | |/
+| |/|
+| | * c0b873c (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Count tasks per category
+| |/
+* / 07566fc (origin/6-find-the-highest-priority-unfinished-task, 6-find-the-highest-priority-unfinished-task) Find
+the highest priority
+|/
+* 5918897 Add starter code
+* c4974fc Inital commit

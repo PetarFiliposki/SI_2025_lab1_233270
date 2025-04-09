@@ -1,0 +1,47 @@
+ДОМАШНА ЗАДАЧА 
+
+Дел 1:
+
+Пишиваме во Git Bash:
+mkdir SI_2025_lab1_233270
+cd SI_2025_lab1_233270
+git init
+git remote add origin https://github.com/PetarFiliposki/SI_2025_lab1_233270.git
+cat > README.md
+git add README.md
+git commit -a -m “Inital commit”
+nano SI2025Lab1Main.java
+git add SI2025Lab1Main.java
+git commit -a -m “Add starter code”
+git push origin master
+
+
+Дел 2:
+
+Пишуваме во Git Bash:
+git fetch origin 
+git checkout 7-count-tasks-per-category
+nano SI2025Lab1Main.java (ја менуваме за одредената функција)
+git add .
+git commit -m “Count tasks per category”
+git push origin 7-count-tasks-per-category
+
+git checkout 1-remove-a-task-by-name
+nano SI2025Lab1Main.java  (ја менуваме за одредената функција)
+git add .
+git commit -m “Remove a tasks by name”
+git push origin 1-remove-a-task-by-name
+
+
+git checkout 6-find-the-highest-priority-unfinished-task
+nano SI2025Lab1Main.java  (ја менуваме за одредената функција)
+git add .
+git commit -m “Find the highest priority”
+git push origin 6-find-the-highest-priority-unfinished-task
+
+git checkout master
+git merge 6-find-the-highest-priority-unfinished-task p
+git push origin master (се случи конфликт)
+git pull origin master
+git push origin master
+git log –oneline -graph =all
